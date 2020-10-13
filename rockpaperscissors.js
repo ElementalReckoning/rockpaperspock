@@ -23,7 +23,7 @@ function playRound(playerSelection, computerSelection) {
 //alerts score, runs until either player reaches five points
 function game() {
     while (playerScore < 5 && computerScore < 5) {
-        let playerSelection =prompt("What is your pick? Rock, paper, or scissors???")
+        let playerSelection = prompt("What is your pick? Rock, paper, or scissors???");
         let computerSelection = computerPlay();
         playRound(playerSelection, computerSelection);
             let score = `The score is ${playerScore} to ${computerScore}`;
@@ -32,7 +32,6 @@ function game() {
 }
 
 
-    //returns random value from pick variable
     function computerPlay() {
         let computerSelection = pick[ Math.floor(Math.random() * pick.length) ]
         return computerSelection
