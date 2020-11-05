@@ -1,0 +1,32 @@
+#div {
+    display: flex;
+    justify-content: center;   
+}
+
+#div0 {
+    display: flex;
+    justify-content: center;
+}
+
+#div1 {
+    text-align: center;
+    justify-content: baseline;
+}
+
+/*#score {
+
+}
+*/
+
+#playScore {
+   padding-right: 30px;
+   color: green;
+}
+#compScore {
+    color: orangered;
+    /*text-align: center;
+    
+    padding-top: 30px;
+    */
+}
+
