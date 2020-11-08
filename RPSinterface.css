@@ -47,7 +47,8 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 
-/*****************************************************************/
+
+
 
 body {
   background-color: navy;
@@ -76,7 +77,6 @@ img {
   }
   60% {
     transform: scale(1.2);
-    opacity:
   }
   80% {
     transform: scale(1.5);
@@ -89,7 +89,7 @@ img {
 img {
   animation-duration: 3s;
   animation-name: shootEm;
-  animation-iteration-count: 2;
+  animation-iteration-count: 3;
 }
 
 #div0 {
@@ -97,11 +97,10 @@ img {
     justify-content: center;
     font-family: "Modak", cursive;
     font-size: 70px;
-    /*font-weight: 700;*/
     padding-top: 15px;
     padding-bottom: 15px;
     background: linear-gradient(45deg, #cb64ff, #7e64ff);
-      -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-text-stroke-width: 1px;
       -webkit-text-stroke-color: black;   
@@ -112,7 +111,6 @@ img {
   justify-content: center;
   font-family: "Modak", cursive;
   font-size: 50px;
-  font-weight: 700;
   padding-top: 10px;
   background: linear-gradient(45deg, #cb64ff, #7e64ff);
     -webkit-background-clip: text;
@@ -142,12 +140,12 @@ img {
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
 }
+
 #compScore {
     font-family: "Modak", cursive;
     color: #cb64ff;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-
 }
 
 #paper {
@@ -160,10 +158,6 @@ img {
     margin: 10px;
     font-size: 30px;
     border-radius: 35px;
-}
-
-#txt0 {
-
 }
 
 h1 {
@@ -183,12 +177,10 @@ button {
 }
 
 button:hover {
-    /*color: darkmagenta;*/
     border: 5px inset #cb64ff;
 }
     
-
- /* The Modal (background) */
+ /*Not Currently In Use
  .modal0 {
     display: none; 
     position: fixed; 
@@ -200,7 +192,6 @@ button:hover {
     background-color: rgba(0,0,0,0.4);
   }
   
-  /* Modal Content/Box */
   .modal-content0 {
     background-color: #4011ec;
     padding: 20px;
@@ -215,7 +206,7 @@ button:hover {
     transform: translate(-50%, -50%);
     border-radius: 50px;
     
-  }
+  }*/
   
   .modal1 {
     display: none; 
@@ -225,8 +216,7 @@ button:hover {
     top: 0;
     width: 100%; 
     height: 100%; 
-    background-color: rgba(186, 85, 211, 0.371);
-    opacity: (0.4); 
+    background-color: rgba(186, 85, 211, 0.371); 
   }
 
   .modal-content1 {
@@ -253,7 +243,6 @@ button:hover {
     width: 100%; 
     height: 100%; 
     background-color: rgba(186, 85, 211, 0.371);
-    opacity: (0.04);
   }
 
   .modal-content2 {
@@ -271,7 +260,7 @@ button:hover {
     border-radius: 30px;
   }
 
-  /* The Close Button */
+  /*Close Button(X)*/
   .close0 {
     color: #aaa;
     float: right;

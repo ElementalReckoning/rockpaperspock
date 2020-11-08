@@ -2,24 +2,20 @@ let pick = [ "rock","paper","scissors"];
 let playerScore = 0;
 let computerScore = 0;
 let namep = prompt("What is your name?");
-//alert("Choose Rock, Paper, or Scissors and see if you can beat the computer! Best out of five wins!!")
+alert("Choose Rock, Paper, or Scissors and see if you can beat the computer! First to five wins!!")
 
 let name = document.getElementById("div0");
 name.innerText = namep + " VS Computer";
-
-
 let playScore = document.getElementById("playScore");
 playScore.innerText = playerScore;
 let compScore = document.getElementById("compScore");
 compScore.innerText = computerScore;
 let round = document.getElementById("div1");
-
-
 let modal0 = document.getElementById("myModal0");
 let modal1 = document.getElementById("myModal1");
 let modal2 = document.getElementById("myModal2");
 
-// When the user clicks anywhere outside of the modal, close it
+// Closes Modal When User Clicks Outside Of Modal
 window.onclick = function(e) {
     if (e.target == modal0 || e.target == modal1 || e.target == modal2) {
       modal0.style.display = "none";
